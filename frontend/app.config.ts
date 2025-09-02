@@ -91,7 +91,7 @@ const config: ExpoConfig = {
     [
       "@wavemaker/react-native-app-auth-expo-plugin",
       {
-        redirectScheme: BUNDLE_ID,
+        redirectScheme: APP_SCHEME,
         enableUniversalLinks: false,
       },
     ],
