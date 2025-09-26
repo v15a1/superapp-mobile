@@ -455,7 +455,7 @@ const MicroApp = () => {
       <Stack.Screen
         options={{
           title: shouldShowHeader ? appName : "",
-          headerShown: shouldShowHeader,
+          headerShown: false,
           headerRight: () =>
             isDeveloper &&
             shouldShowHeader && (
